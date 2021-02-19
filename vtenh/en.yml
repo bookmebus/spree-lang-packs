@@ -1,0 +1,288 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  payment:
+    payway: 'Credit/Debit Card'
+    payway_description: 'Visa, Mastercard, UnionPay'
+    abapay: 'ABA PAY'
+    abapay_description: 'Scan to pay with ABA Mobile'
+  activerecord:
+    attributes:
+      user:
+        login: "credential"
+      spree/vendor:
+        vendor_type: "Vendor type"
+      spree/address:
+        district: "District"
+        house_number: "House Number"
+        street_number: "Street Number"
+        commune: "Commune"
+
+  main_menu:
+    all_brands: "All Brands"
+    become_a_seller: "Become a Seller"
+    all_categories: "All Categories"
+    search_in_vtenh: "Search in VTENH"
+
+  badge:
+    # badge_label
+    offer: "offer"
+    promoted: "promoted"
+    new: "new"
+
+  common:
+    my_account: "My Account"
+    connected_account: "Connected account"
+    connect_to_social_network: "Connect to social network"
+    profile: "Profile"
+    address: "Address"
+    password: "Password"
+    my_orders: "My Orders"
+    log_out: "Log Out"
+    first_name: "First name"
+    last_name: "Last name"
+    dob: "Date of birth"
+    gender: "gender"
+    current_password: 'Current password'
+    new_password: 'New password'
+    confirm_new_password: 'Confirm new password'
+    no_phone: "No phone number? Use"
+    no_email: "No email? Use"
+    verifying: "VERIFYING"
+    success: "SUCCESS"
+    failed: "FAILED"
+    slide_to_verify: "SLIDE TO VERIFY"
+    payment_method: "Payment Method"
+    payment_type: "Payment Type"
+    required_fields: "Required Fields"
+    other_address: "Other Address"
+    ship_to: "Shipping to"
+    delivery_method: "Delivery Method"
+    your_order: "Your Order"
+    apply: "Apply"
+    add_promo_code: "Add Promo Code"
+    checkout: "Checkout"
+    total: "Total"
+    quantity: "Quantity"
+    product: "Product"
+    price: "Price"
+    shopping_cart: "Shopping Cart"
+    price: "Price"
+    your_shopping_cart: "Your Shopping Cart"
+    create_new_account: "Create New Account"
+    continue_as_guest: "Continue as guest"
+    product_details: "Product Details"
+    overview: "Overview"
+    product_spec: "Product Spec"
+    share_to: "Share to"
+    view_shop: "View Shop"
+    available_products: "%{count} products available"
+    previous: "Previous"
+    next: "Next"
+    all_products: "All Products"
+    store_front: "Store Front"
+    top_categories: "Top Categories"
+    treding_categories: "Trending Categories"
+    feature_brands: "Feature Brands"
+    see_more: "See More"
+    call_now: "Call Now"
+    login: "Login"
+    phone_number: "Phone number"
+    email: "Email"
+    username: "Username"
+    loading: "Loading"
+    signin_with: "Sign in with %{identity_type}"
+    follow_us: "Follow Us"
+    home: "Home"
+    contact_us: "Contact Us"
+    term_of_use: "Terms of Use"
+    we_accept: "We Accept"
+    phone_cannot_blank: "Phone number cannot be blank!"
+    email_cannot_blank: "Email cannot be blank!"
+    please_verify_phone_number: "Please verify your Phone number!"
+    please_verify_email: "Please verify your Email!"
+    please_check_phone_number_for_verification_code: "Please check your phone number for verification code"
+    please_check_email_for_verification_code: "Please check your email for verification code"
+    enter_verification_code: "Please enter your verification code!"
+
+    term_and_condition: "Term and Conditions"
+    privacy_policy: "Privacy Policy"
+    return_and_refund_policy: "Return and Refund Policy"
+    cookies_policy: "Cookies Policy"
+
+    shopping_experience: "%{site_name} Shopping Experience"
+
+    free_delivery: "Free Delivery"
+    free_delivery_desc: "Enjoy free and fast delivery on all orders above $10 to all provinces in Cambodia."
+
+    shop_with_confidence: "Shop With Confidence"
+    shop_with_confidence_desc: "No more worries about damaged or missing items. We offer full money back guarantee on all products."
+
+    secure_payment: "Secure Payment"
+    secure_payment_desc: "Pay securely and conveniently on our website with debit cards, credit cards, <b>ABAPAY</b> and other payment options."
+
+    customer_service: "Responsive Customer Service"
+    customer_service_desc: "Our support team is always ready to assist you 7 days per week from 8AM to 8PM."
+
+    all_brands_in: Shop your favorite brands on %{store_name}"
+    feature_brands: "Featured Brands"
+    all_brands: "All Brands"
+    payment_request_failed_with: "Payment request failed with"
+
+  account_link:
+    section: "Account linkage"
+    success: "Your account has been linked to %{identity_type} successfully"
+    failure: "Failed to link your %{identity_type} account with error %{reason}"
+    connect: "Connect to %{identity_type}"
+    connected: "Connected to %{identity_type}"
+
+  pincode_checker:
+    error_type:
+      not_found: 'Verification Code not found!'
+      expired: 'Verification Code already expired!'
+      reached_max_attempt: 'Verification Code already reach max attempt!'
+      not_match: 'Verification code is not valid'
+      ok: 'Verification code is valid'
+
+  pincode_sender:
+    pincode:
+      blank: 'Pincode is blank'
+
+  account_checker:
+    login:
+      not_found: "%{login} does not exist"
+    verify:
+      already_exist: "%{login} already exist"
+
+  user_identity_provider:
+    not_found: "User identity provider for %{identity_type} not found in the system"
+
+  firebase_id_token:
+    failure: "Identity token not found in the system"
+
+  auth:
+    headers:
+      bearer_token:
+        blank: "Authorization with Bearer token can not be blank"
+
+      app_authenticate:
+        blank: "App-Authenticate headers can not be blank"
+
+    payload:
+      jit:
+        mismatch: "Claim application is incorrect"
+    app:
+      internal_name:
+        not_found: "Application not found"
+
+    jwt:
+      decode_error: "Token can not be decoded: %{error_message}"
+      expired: "Token expired: %{error_message}"
+  sms:
+    to:
+      blank: "recipient can not be blank"
+    body:
+      blank: "sms content can not be blank"
+
+  spree_user:
+    unknown: "Unknown"
+    successfully_update: 'Successfully updated the user'
+    invalid_password: 'Currennt password is not valid'
+
+  pincode_sender:
+    sms:
+      body: "%{code} is your %{readable_type}"
+
+  pincode:
+    readable_type:
+      login: "login code"
+      reset_password: "reset password code"
+      registration_code: "registration code"
+      confirmation_code: "confirmation code"
+      update_user_login: "update user code"
+  pincode_creator:
+    invalid_phone_number: "Invalid phone number"
+    invalid_email_address: "Invalid email address"
+  actions:
+    login: "Login"
+  copyright:
+    designed_and_developed_by: "Designed and developed by"
+
+  spree:
+    order_success: 'Order placed successfully'
+    order_success_explain: 'Your order information will be sent to your email'
+    shop_more: 'Shop More'
+    log_in_to_continue: "Log in to continue"
+    your_order: 'Your order'
+    province: 'Province'
+    product:
+      detail: "detail"
+    common:
+      verify: "Verify"
+    input:
+      label:
+        phone_number: "Phone Number"
+        email: "Email"
+        password: "Password"
+        confirm_password: "Confirm Password"
+        verification_code: "Verification Code"
+      placeholder:
+        phone_number: "Enter your phone number"
+        email: "Enter your email"
+        password: "Enter your password"
+        confirm_password: "Enter your confirm password"
+        verification_code: "Enter your verifycation code"
+    button:
+      signup: "Sign Up"
+      signin: "Sign In"
+      buy_now: "Buy Now"
+    label:
+      quantity: "Quantity"
+    signup_form:
+      by_sign_up: "By signing up"
+      agree: "you agree to our"
+      term_of_use: "Terms of Use"
+      policy: "Privacy Policy"
+      or_signup: "Or Sign Up"
+      already_have_acc: "Already have an account?"
+    signin_form:
+      reset_password: "Reset password"
+      cannot_login: "Cannot login?"
+      no_account: "Do not have an account?"
+    continue_as_guest: "Continue as guest"
+
+    nav_bar:
+      my_account: "My Account"
+      admin_panel: "Admin Panel"
+      log_out: "Log Out"
+      log_in: "Log In"
+      sign_up: "Sign Up"

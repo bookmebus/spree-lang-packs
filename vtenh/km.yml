@@ -1,0 +1,277 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+km:
+  payment:
+    payway: "Credit/Debit Card"
+    payway_description: "Visa, Mastercard, UnionPay"
+    abapay: "ABA PAY"
+    abapay_description: "Scan to pay with ABA Mobile"
+  activerecord:
+    attributes:
+      user:
+        login: "គណនី"
+      spree/vendor:
+        vendor_type: "ប្រភេទហាង"
+      spree/address: "អាសយដ្ឋាន"
+        district: "ស្រុក/ខណ្ឌ"
+        house_number: "លេខផ្ទះ ឬអគារ"
+        street_number: "ឈ្មោះ ឬលេខផ្លូវ"
+        commune: "ឃុំ/សង្កាត់"
+
+  main_menu:
+    all_brands: "ហាង និងយីហោ"
+    become_a_seller: "ចុះឈ្មោះលក់"
+    all_categories: "ប្រភេទទំនិញ"
+    search_in_vtenh: "ស្វែងរកក្នុង VTENH"
+
+  badge:
+    # badge_label
+    offer: "ប្រូម៉ូសិន"
+    promoted: "ពាណិជ្ជកម្ម"
+    new: "ថ្មី"
+
+  common:
+    my_account: "គណនីរបស់ខ្ញុំ"
+    connected_account: "គណនីដែលបានភ្ជាប់"
+    connect_to_social_network: "ភ្ជាប់ទៅគណនីបណ្តាញសង្គម"
+    profile: "ពត៌មានផ្ទាល់ខ្លួន"
+    address: "អាសយដ្ឋាន"
+    password: "ពាក្យសង្ងាត់"
+    my_orders: "ការបញ្ជាទិញរបស់ខ្ញុំ"
+    log_out: "ចាកចាញ"
+    first_name: "នាមខ្លួន"
+    last_name: "នាមត្រកូល"
+    dob: "ថ្ងៃខែឆ្នាំកំណើត"
+    gender: "ភេទ"
+    current_password: 'ពាក្យសម្ងាត់បច្ចុប្បន្ន'
+    new_password: 'ពាក្យសម្ងាត់ថ្មី'
+    confirm_new_password: 'បញ្ជាក់ពាក្យសម្ងាត់ថ្មី'
+    no_phone: "គ្មានលេខទូរសព្ទមែនទេ? ប្រើប្រាស់"
+    no_email: "គ្មាន email​ មែនទេ? ប្រើប្រាស់"
+    verifying: "កំពុងផ្ទៀងផ្ទាត់"
+    success: "ជោគជ័យ"
+    failed: "បរាជ័យ"
+    slide_to_verify: "សូមអូសដើម្បីផ្ទៀងផ្ទាត់"
+    payment_method: "មធ្យោបាយបង់ប្រាក់"
+    payment_type: "មធ្យោបាយបង់ប្រាក់"
+    required_fields: "ពត៌មានចាំបាច់ត្រូវបំពេញ"
+    other_address: "អាសយដ្ឋានផ្សេងទៀត"
+    ship_to: "ដឹកជញ្ជូនទៅកាន់"
+    delivery_method: "មធ្យោបាយដឹកជញ្ជូន"
+    your_order: "ការបញ្ជាទិញរបស់អ្នក"
+    apply: "ប្រើប្រាស់"
+    add_promo_code: "បញ្ចូលប្រូម៉ូកូដ"
+    checkout: "ទូទាត់"
+    total: "សរុប"
+    quantity: "ចំនួន"
+    product: "ផលិតផល"
+    price: "តម្លៃ"
+    shopping_cart: "រទេះទំនិញ"
+    your_shopping_cart: "រទេះទំនិញរបស់អ្នក"
+    create_new_account: "បង្កើតគណនីថ្មី"
+    continue_as_guest: "បន្តការទិញ ដោយប្រើគណនី"
+    product_details: "អំពីផលិតផល"
+    overview: "សេចក្តីសង្ខេប"
+    product_spec: "ពត៌មានបច្ចេកទេស"
+    share_to: "ចែករំលែក"
+    view_shop: "ចូលមើលហាង"
+    available_products: "មាន %{count} ផលិតផល"
+    previous: "ថយក្រោយ"
+    next: "បន្ទាប់"
+    all_products: "ផលិតផលទាំងអស់"
+    store_front: "ទំព័រហាង"
+    top_categories: "ប្រភេទទំនិញ"
+    treding_categories: "ប្រភេទទំនិញពេញនិយម"
+    feature_brands: "ហាង និងយីហោណែនាំ"
+    see_more: "បង្ហាញបន្ថែម"
+    verify: "ផ្ទៀងផ្ទាត់"
+    call_now: "ទូរស័ព្ទមកឥឡូវនេះ"
+    login: "ឈ្មោះ​គណនី"
+    phone_number: "លេខទូរសព្ទ"
+    email: "Email"
+    username: "ឈ្មោះ​អ្នកប្រើប្រាស់"
+    loading: "កំពុងដំណើរការ"
+    signin_with: "ចូលគណនីដោយប្រើ %{identity_type}"
+    follow_us: "ជួបគ្នានៅលើ"
+    home: "ទំព័រដើម"
+    contact_us: "ទំនាក់ទំនង"
+    term_of_use: "លក្ខខណ្ឌផ្សេងៗ"
+    we_accept: "មធ្យោបាយបង់ប្រាក់"
+    phone_cannot_blank: "សូមបញ្ចូលលេខទូរសព្ទដើម្បីបន្ត!"
+    email_cannot_blank: "សូមបញ្ចូល Email ដើម្បីបន្ត!"
+    please_verify_phone_number: "សូមផ្ទៀងផ្ទាត់លេខទូរសព្ទរបស់អ្នក"
+    please_verify_email: "សូមផ្ទៀងផ្ទាត់ Email របស់អ្នក"
+    enter_verification_code: "សូមបញ្ចូលលេខកូដផ្ទៀងផ្ទាត់"
+
+    term_and_condition: "លក្ខខណ្ឌនៃការប្រើប្រាស់"
+    privacy_policy: "គោលការណ៍ឯកជនភាព"
+    return_and_refund_policy: "គោលការណ៍ដូរទំនិញ និងបង្វិលសង"
+    cookies_policy: "Cookies Policy"
+
+    shopping_experience: "បទពិសោធទិញលើ %{site_name}"
+
+    free_delivery: "ដឹកជញ្ជូនទាន់ចិត្តឥតគិតថ្លៃ"
+    free_delivery_desc: "រាល់ការទិញទំនិញចាប់ពី១០ដុល្លារ លោកអ្នកនឹងទទួលបានការដឹកជញ្ជូនទូទាំងប្រទេសដោយឥតគិតថ្លៃ និងរហ័សទាន់ចិត្ត។"
+
+    shop_with_confidence: "ទិញដោយទំនុកចិត្ត"
+    shop_with_confidence_desc: "អស់បារម្ភ! ពួកយើងផ្តល់ការធានាសងប្រាក់ពេញលេញរាល់ករណីបាត់ ឬខូតខាតទំនិញពេលមកដល់។"
+
+    secure_payment: "ទូទាត់ដោយសុវត្ថិភាព"
+    secure_payment_desc: "បង់ប្រាក់អនឡាញប្រកបដោយសុវត្ថិភាពជាមួយវីសាកាត ម៉ាស្ទ័រកាត ABA PAY និងវិធីទូទាត់ប្រាក់ផ្សេងៗ។"
+
+    customer_service: "សេវាបម្រើអតិថិជន"
+    customer_service_desc: "ពួកយើងរង់ចាំស្វាគមន៍ចាំជួយ និងឆ្លើយតបរាល់សំនួរអតិថិជន ៧ថ្ងៃ/១សប្តាហ៍ ពីម៉ោង៨ៈ០០ព្រឹក ដល់ម៉ោង ៨ៈ០០យប់។"
+
+    all_brands_in: "គ្រប់ហាង និងយីហោក្នុង %{store_name}"
+    payment_request_failed_with: "សំណើរបង់ប្រាក់បរាជ័យជាមួយ"
+
+  account_link:
+    section: "ការភ្ជាប់គណនី"
+    success: "គណនីរបស់អ្នកត្រូវបានភ្ជាប់ទៅ %{identity_type} ដោយជោគជ័យ"
+    failure: "បានបរាជ័យក្នុងការភ្ជាប់គណនីរបស់អ្នកជាមួយ %{identity_type} %{reason}"
+    connect: "ភ្ជាប់ទៅ %{identity_type}"
+    connected: "បានតភ្ជាប់ %{identity_type}"
+
+  pincode_checker:
+    error_type:
+      not_found: "រកមិនឃើញលេខកូដផ្ទៀងផ្ទាត់"
+      expired: "លេខកូដផ្ទៀងផ្ទាត់បានផុតកំណត់"
+      reached_max_attempt: "សំណើរលេខកូដផ្ទៀងផ្ទាត់លើសកំណត់"
+      not_match: "លេខកូដផ្ទៀងផ្ទាត់មិនត្រឹមត្រូវ"
+      ok: "លេខកូដផ្ទៀងផ្ទាត់ត្រឹមត្រូវ"
+
+  pincode_sender:
+    pincode:
+      blank: 'សូមបញ្ចូលលេខកូដ'
+
+  account_checker:
+    login:
+      not_found: "មិនមានគណនី %{login}"
+    verify:
+      already_exist: "គណនី %{login} រួចហើយ"
+
+  user_identity_provider:
+    not_found: "User identity provider not found"
+
+  firebase_id_token:
+    failure: "Identity token not found in the system"
+
+  auth:
+    headers:
+      bearer_token:
+        blank: "Authorization with Bearer token can not be blank"
+      app_authenticate:
+        blank: "App-Authenticate headers can not be blank"
+
+    payload:
+      jit:
+        mismatch: "Claim application is incorrect"
+    app:
+      internal_name:
+        not_found: "Application not found"
+
+    jwt:
+      decode_error: "Token can not be decoded: %{error_message}"
+      expired: "Token expired: %{error_message}"
+  sms:
+    to:
+      blank: "អ្នកផ្ញើមិនអាចទទេបានទេ"
+    body:
+      blank: "សារមិនអាចទទេបានទេ"
+
+  spree_user:
+    unknown: "ឈ្មោះអតិថិជន"
+    successfully_update: 'កំណែប្រែពត៌មានបានសម្រេច'
+    invalid_password: 'ពាក្យសង្ងាត់បច្ចុប្បន្នមិនត្រឹមត្រូវ'
+
+  pincode_sender:
+    sms:
+      body: "លេខកូដ %{code} គឺជា %{readable_type} របស់អ្នក"
+
+  pincode:
+    readable_type:
+      login: "ចូលលេខកូដ"
+      reset_password: "កំណត់លេខកូដសំងាត់ឡើងវិញ"
+      registration_code: "លេខកូដចុះឈ្មោះ"
+      confirmation_code: "លេខកូដបញ្ជាក់"
+      update_user_login: "ធ្វើបច្ចុប្បន្នភាពលេខកូដអ្នកប្រើប្រាស់"
+  pincode_creator:
+    invalid_phone_number: "លេខទូរសព្ទមិនត្រឹមត្រូវ"
+    invalid_email_address: "អាសយដ្ឋាន Email មិនត្រឹមត្រូវ"
+  actions:
+    login: "ចូលប្រើប្រាស់"
+  copyright:
+    designed_and_developed_by: "រចនា និងបង្កើតដោយ"
+
+  spree:
+    order_success: "ការដាក់បញ្ជាទិញរបស់អ្នកបានជោគជ័យ"
+    order_success_explain: "ពត៌មានពីការបញ្ជាទិញរបស់អ្នកនឹងត្រូវបានផ្ញើទៅកាន់ Email របស់អ្នក "
+    shop_more: "ទិញទំនិញបន្ថែមទៀត"
+    log_in_to_continue: "ចូលគណនីដើម្បីបន្ត"
+    your_order: "ការបញ្ជាទិញរបស់អ្នក"
+    province: "ខេត្ត-រាជធានី"
+    product:
+      detail: "ពត៌មានលម្អិត"
+    common:
+      verify: "ផ្ទៀងផ្ទាត់"
+    input:
+      label:
+        phone_number: "លេខទូរសព្ទ"
+        email: "Email"
+        password: "ពាក្យសង្ងាត់"
+        confirm_password: "បញ្ជាក់ពាក្យសង្ងាត់"
+        verification_code: "លេខកូដផ្ទៀងផ្ទាត់"
+      placeholder:
+        phone_number: "សូមបញ្ចូលលេខទូរសព្ទ"
+        email: "សូមបញ្ចូលអាសយដ្ឋាន email"
+        password: "សូមបញ្ចូលពាក្យសម្ងាត់"
+        confirm_password: "សូមបញ្ចូលពាក្យសម្ងាត់ម្តងទៀត"
+        verification_code: "សូមបញ្ចូលលេខកូដផ្ទៀងផ្ទាត់"
+    button:
+      signup: "បង្កើតគណនី"
+      signin: "ចូលគណនី"
+      buy_now: "ទិញឥឡូវនេះ"
+    label:
+      quantity: "ចំនួន"
+    signup_form:
+      by_sign_up: "ដោយចុះឈ្មោះប្រើប្រាស់"
+      agree: "អ្នកបានធ្វើការយល់ព្រមជាមួយ"
+      term_of_use: "លក្ខខណ្ឌ និងគោលការណ៍ប្រើប្រាស់"
+      policy: "គោលការណ៍ឯកជនភាព"
+      or_signup: "ឬ ចុះឈ្មោះ"
+      already_have_acc: "មានគណនីស្រាប់ហើយ?"
+      no_account: "មិនទាន់មានគណនីមែនទេ?"
+    signin_form:
+      reset_password: "ផ្លាស់ប្តូពាក្យសម្ងាត់"
+      cannot_login: "មានបញ្ហាចូលគណនី?"
+      no_account: "មិនមានគណនីមែនទេ?"
+    continue_as_guest: "បន្តដោយមិនប្រើគណនី"
